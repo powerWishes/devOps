@@ -1,0 +1,605 @@
+{
+	"chanpay-parent" : {
+		"name" : "chanpay-parent",
+		"port" : "null",
+		"zone" : "null",
+		"managerPort" : "null",
+		"url" : "/mobile-group/chanpay-parent.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "2g",
+		"maxMem" : "2g"
+	},
+	"chanpay-general-parent" : {
+		"name" : "chanpay-general-parent",
+		"port" : "null",
+		"zone" : "null",
+		"managerPort" : "null",
+		"url" : "/mobile-group/chanpay-parent.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "2g",
+		"maxMem" : "2g"
+	},
+	"chanpay-common" : {
+		"name" : "chanpay-common",
+		"port" : "null",
+		"zone" : "null",
+		"managerPort" : "null",
+		"url" : "/mobile-group/chanpay-common.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "2g",
+		"maxMem" : "2g"
+	},
+	"chanpay-facade" : {
+		"name" : "chanpay-facade",
+		"port" : "null",
+		"zone" : "null",
+		"managerPort" : "null",
+		"url" : "/mobile-group/chanpay-facade.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "2g",
+		"maxMem" : "2g"
+	},
+	"chanpay-facade-client" : {
+		"name" : "chanpay-facade-client",
+		"port" : "null",
+		"zone" : "null",
+		"managerPort" : "null",
+		"url" : "/mobile-group/chanpay-facade.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "2g",
+		"maxMem" : "2g"
+	},
+	"chanpay-service-account" : {
+		"name" : "chanpay-service-account",
+		"port" : "7283",
+		"zone" : "ap_core",
+		"managerPort" : "27283",
+		"url" : "/mobile-group/chanpay-account.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "8g",
+		"maxMem" : "8g"
+	},
+	"chanpay-service-wallet-flow" : {
+		"name" : "chanpay-service-wallet-flow",
+		"port" : "7287",
+		"zone" : "ap_core",
+		"managerPort" : "27287",
+		"url" : "/mobile-group/chanpay-account.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "8g",
+		"maxMem" : "8g"
+	},
+	"chanpay-wallet-service-account" : {
+		"name" : "chanpay-wallet-service-account",
+		"port" : "7286",
+		"zone" : "ap_core",
+		"managerPort" : "27286",
+		"url" : "/mobile-group/chanpay-account.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "8g",
+		"maxMem" : "8g"
+	},
+	"chanpay-service-user" : {
+		"name" : "chanpay-service-user",
+		"port" : "7289",
+		"zone" : "ap_core",
+		"managerPort" : "27289",
+		"url" : "/mobile-group/chanpay-user.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "12g",
+		"maxMem" : "12g"
+	},
+	"chanpay-service-trans" : {
+		"name" : "chanpay-service-trans",
+		"port" : "7290",
+		"zone" : "ap_core",
+		"managerPort" : "27290",
+		"url" : "/mobile-group/chanpay-trans.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "12g",
+		"maxMem" : "12g"
+	},
+	"chanpay-service-channel" : {
+		"name" : "chanpay-service-channel",
+		"port" : "7297",
+		"zone" : "ap_core",
+		"managerPort" : "27297",
+		"url" : "/mobile-group/chanpay-trans.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "8g",
+		"maxMem" : "8g"
+	},
+	"chanpay-api-app" : {
+		"name" : "chanpay-api-app",
+		"port" : "7181",
+		"zone" : "dmz_general",
+		"managerPort" : "27181",
+		"url" : "/mobile-group/chanpay-api-app.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-web-agent" : {
+		"name" : "chanpay-web-agent",
+		"port" : "7082",
+		"zone" : "dmz_general",
+		"managerPort" : "27082",
+		"url" : "/mobile-group/chanpay-agent.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-web-boss" : {
+		"name" : "chanpay-web-boss",
+		"port" : "7080",
+		"zone" : "dmz_general",
+		"managerPort" : "27080",
+		"url" : "/mobile-group/chanpay-boss.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-web-org" : {
+		"name" : "chanpay-web-org",
+		"port" : "7083",
+		"zone" : "dmz_general",
+		"managerPort" : "27083",
+		"url" : "/mobile-group/chanpay-org.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-web-user" : {
+		"name" : "chanpay-web-user",
+		"port" : "7081",
+		"zone" : "dmz_general",
+		"managerPort" : "27081",
+		"url" : "/mobile-group/chanpay-user.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-gateway-platform-posp" : {
+		"name" : "chanpay-gateway-platform-posp",
+		"port" : "7485",
+		"zone" : "dmz_general",
+		"managerPort" : "27485",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-service-third-party" : {
+		"name" : "chanpay-service-third-party",
+		"port" : "7380",
+		"zone" : "dmz_general",
+		"managerPort" : "27380",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-api-platform" : {
+		"name" : "chanpay-api-platform",
+		"port" : "7180",
+		"zone" : "dmz_core",
+		"managerPort" : "27180",
+		"url" : "/mobile-group/chanpay-api-platform.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-wallet-api-platform" : {
+		"name" : "chanpay-wallet-api-platform",
+		"port" : "7182",
+		"zone" : "dmz_core",
+		"managerPort" : "27182",
+		"url" : "/mobile-group/chanpay-api-platform.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-api-third-platform" : {
+		"name" : "chanpay-api-third-platform",
+		"port" : "7183",
+		"zone" : "dmz_core",
+		"managerPort" : "27183",
+		"url" : "/mobile-group/chanpay-api-platform.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-api-channel" : {
+		"name" : "chanpay-api-channel",
+		"port" : "7185",
+		"zone" : "dmz_core",
+		"managerPort" : "27185",
+		"url" : "/mobile-group/chanpay-api-platform.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-api-third-merchant" : {
+		"name" : "chanpay-api-third-merchant",
+		"port" : "7187",
+		"zone" : "dmz_core",
+		"managerPort" : "27187",
+		"url" : "/mobile-group/chanpay-api-platform.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "4g",
+		"maxMem" : "4g"
+	},
+	"chanpay-gateway-message" : {
+		"name" : "chanpay-gateway-message",
+		"port" : "7480",
+		"zone" : "dmz_out",
+		"managerPort" : "27480",
+		"url" : "/mobile-group/chanpay-message.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-quickpay-notify" : {
+		"name" : "chanpay-gateway-quickpay-notify",
+		"port" : "7489",
+		"zone" : "dmz_out",
+		"managerPort" : "27489",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-linkface" : {
+		"name" : "chanpay-gateway-linkface",
+		"port" : "7505",
+		"zone" : "dmz_out",
+		"managerPort" : "27505",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-unionpay-headquarters" : {
+		"name" : "chanpay-gateway-unionpay-headquarters",
+		"port" : "7481",
+		"zone" : "dmz_pri",
+		"managerPort" : "27481",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-unionpay-tianjin-allchannel" : {
+		"name" : "chanpay-gateway-unionpay-tianjin-allchannel",
+		"port" : "7495",
+		"zone" : "dmz_pri",
+		"managerPort" : "27495",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-unionpay-tianjin-allchannel-cbhb" : {
+		"name" : "chanpay-gateway-unionpay-tianjin-allchannel-cbhb",
+		"port" : "7497",
+		"zone" : "dmz_pri",
+		"managerPort" : "27497",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-unionpay-org-quickpay" : {
+		"name" : "chanpay-gateway-unionpay-org-quickpay",
+		"port" : "7498",
+		"zone" : "dmz_pri",
+		"managerPort" : "27498",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-authentication" : {
+		"name" : "chanpay-gateway-authentication",
+		"port" : "7494",
+		"zone" : "ap_general",
+		"managerPort" : "27494",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-base" : {
+		"name" : "chanpay-service-base",
+		"port" : "7281",
+		"zone" : "ap_general",
+		"managerPort" : "27281",
+		"url" : "/mobile-group/chanpay-base.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "8g",
+		"maxMem" : "8g"
+	},
+	"chanpay-service-message-receiver" : {
+		"name" : "chanpay-service-message-receiver",
+		"port" : "7681",
+		"zone" : "ap_general",
+		"managerPort" : "27681",
+		"url" : "/mobile-group/chanpay-message.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-message-trans-receiver" : {
+		"name" : "chanpay-service-message-trans-receiver",
+		"port" : "7683",
+		"zone" : "ap_general",
+		"managerPort" : "27683",
+		"url" : "/mobile-group/chanpay-message.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-monitor" : {
+		"name" : "chanpay-service-monitor",
+		"port" : "7291",
+		"zone" : "ap_general",
+		"managerPort" : "27291",
+		"url" : "/mobile-group/chanpay-monitor.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-task-monitor" : {
+		"name" : "chanpay-task-monitor",
+		"port" : "7292",
+		"zone" : "ap_general",
+		"managerPort" : "27292",
+		"url" : "/mobile-group/chanpay-monitor.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g",
+		"singleNode" : "10.255.1.51"
+	},
+	"chanpay-gateway-hsm-keyou" : {
+		"name" : "chanpay-gateway-hsm-keyou",
+		"port" : "7484",
+		"zone" : "ap_general",
+		"managerPort" : "27484",
+		"url" : "/mobile-group/chanpay-security.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-unionpay-quickpay" : {
+		"name" : "chanpay-gateway-unionpay-quickpay",
+		"port" : "7486",
+		"zone" : "ap_general",
+		"managerPort" : "27486",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-app" : {
+		"name" : "chanpay-service-app",
+		"port" : "7288",
+		"zone" : "ap_general",
+		"managerPort" : "27288",
+		"url" : "/mobile-group/chanpay-app-admin.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-message" : {
+		"name" : "chanpay-service-message",
+		"port" : "7282",
+		"zone" : "ap_general",
+		"managerPort" : "27282",
+		"url" : "/mobile-group/chanpay-message.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-message-sender" : {
+		"name" : "chanpay-service-message-sender",
+		"port" : "7680",
+		"zone" : "ap_general",
+		"managerPort" : "27680",
+		"url" : "/mobile-group/chanpay-message.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-message-trans-sender" : {
+		"name" : "chanpay-service-message-trans-sender",
+		"port" : "7682",
+		"zone" : "ap_general",
+		"managerPort" : "27682",
+		"url" : "/mobile-group/chanpay-message.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-permission" : {
+		"name" : "chanpay-service-permission",
+		"port" : "7505",
+		"zone" : "ap_general",
+		"managerPort" : "27505",
+		"url" : "/mobile-group/chanpay-platform-permission.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "2g",
+		"maxMem" : "2g"
+	},
+	"chanpay-task" : {
+		"name" : "chanpay-task",
+		"port" : "7285",
+		"zone" : "ap_general",
+		"managerPort" : "27285",
+		"url" : "/mobile-group/chanpay-task.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "2g",
+		"maxMem" : "2g",
+		"singleNode" : "10.255.1.51"
+	},
+	"chanpay-service-cache" : {
+		"name" : "chanpay-service-cache",
+		"port" : "7293",
+		"zone" : "ap_general",
+		"managerPort" : "27293",
+		"url" : "/mobile-group/chanpay-cache.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-sms" : {
+		"name" : "chanpay-gateway-sms",
+		"port" : "7496",
+		"zone" : "ap_general",
+		"managerPort" : "27496",
+		"url" : "/mobile-group/chanpay-message.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-monitor-db" : {
+		"name" : "chanpay-service-monitor-db",
+		"port" : "7296",
+		"zone" : "ap_general",
+		"managerPort" : "27296",
+		"url" : "/mobile-group/chanpay-monitor.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-risk" : {
+		"name" : "chanpay-service-risk",
+		"port" : "7298",
+		"zone" : "ap_general",
+		"managerPort" : "27298",
+		"url" : "/mobile-group/chanpay-risk.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-task-channel" : {
+		"name" : "chanpay-task-channel",
+		"port" : "7299",
+		"zone" : "ap_general",
+		"managerPort" : "27299",
+		"url" : "/mobile-group/chanpay-task.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g",
+		"singleNode" : "10.255.1.51"
+	},
+	"chanpay-gateway-channel-notify" : {
+		"name" : "chanpay-gateway-channel-notify",
+		"port" : "7501",
+		"zone" : "ap_general",
+		"managerPort" : "27501",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-chanjet-quickpay" : {
+		"name" : "chanpay-gateway-chanjet-quickpay",
+		"port" : "7503",
+		"zone" : "ap_general",
+		"managerPort" : "27503",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-unionpay-new-quickpay" : {
+		"name" : "chanpay-gateway-unionpay-new-quickpay",
+		"port" : "7502",
+		"zone" : "ap_general",
+		"managerPort" : "27502",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-unionpay-qrcode" : {
+		"name" : "chanpay-gateway-unionpay-qrcode",
+		"port" : "7504",
+		"zone" : "ap_general",
+		"managerPort" : "27504",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-chanjet-riskdecision" : {
+		"name" : "chanpay-gateway-chanjet-riskdecision",
+		"port" : "7493",
+		"zone" : "ap_general",
+		"managerPort" : "27493",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-unionpay-posp-quickpay" : {
+		"name" : "chanpay-gateway-unionpay-posp-quickpay",
+		"port" : "7506",
+		"zone" : "ap_general",
+		"managerPort" : "27506",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-gateway-new-channel" : {
+		"name" : "chanpay-gateway-new-channel",
+		"port" : "7508",
+		"zone" : "ap_general",
+		"managerPort" : "27508",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-message-remit-receiver" : {
+		"name" : "chanpay-service-message-remit-receiver",
+		"port" : "7688",
+		"zone" : "ap_general",
+		"managerPort" : "27688",
+		"url" : "/mobile-group/chanpay-message.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-message-remit-sender" : {
+		"name" : "chanpay-service-message-remit-sender",
+		"port" : "7687",
+		"zone" : "ap_general",
+		"managerPort" : "27687",
+		"url" : "/mobile-group/chanpay-message.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "1g",
+		"maxMem" : "1g"
+	},
+	"chanpay-service-file" : {
+		"name" : "chanpay-service-file",
+		"port" : "7300",
+		"zone" : "ap_general",
+		"managerPort" : "27300",
+		"url" : "/mobile-group/chanpay-base.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "2g",
+		"maxMem" : "2g"
+	},
+	"chanpay-gateway-allhopes" : {
+		"name" : "chanpay-gateway-allhopes",
+		"port" : "7509",
+		"zone" : "dmz_out",
+		"managerPort" : "27509",
+		"url" : "/mobile-group/chanpay-service-third-party.git",
+		"certId" : "ed1bf91c-4079-4385-abe8-c92c6db9c716",
+		"minMem" : "2g",
+		"maxMem" : "2g"
+	}
+}
